@@ -58,9 +58,9 @@ need to add state!
 
 Our full checklist looks like this:
 
-- 🚫 Is it passed as a prop?
-- 🚫 Can you compute it based on any other state or props in your component?
-- 🚫 Does it remain unchanged over time?
+- 🚫 Is it passed as a prop? Nop
+- 🚫 Can you compute it based on any other state or props in your component? No
+- 🚫 Does it remain unchanged over time? No it changes to ON and fron On t OFF
 
 So it's time to add state! There's some starter code in the `Toggle.js` file. If
 you're feeling good about what you learned in the last lesson, give it a shot
